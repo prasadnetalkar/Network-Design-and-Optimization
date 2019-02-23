@@ -1,0 +1,11 @@
+reset;
+model link.mod;
+data link.dat;
+option solver cplex;
+solve;
+display x;
+display y;
+display r1;
+display y1;
+display z;
+

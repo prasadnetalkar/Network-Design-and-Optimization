@@ -1,0 +1,9 @@
+reset;
+model demand.mod;
+data demand.dat;
+option solver cplex;
+solve;
+display x;
+display y;
+display r1;
+
